@@ -8,6 +8,8 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   validateInputs();
+  alert("Form submitted successfully!");
+  form.reset();
 });
 
 const setError = (element, message) => {
